@@ -12,7 +12,7 @@ import errno
 import matplotlib.pyplot as plt
 
 # Pre-trained VGG-11 weights
-PATH_VGG_WEIGHTS = '../kaggle/input/vgg-11-path/vgg11_bn-6002323d.pth'
+PATH_VGG_WEIGHTS = '../kaggle/input/vgg-11/vgg11.pth'
 
 
 def pad_sequences(seq, max_len):
