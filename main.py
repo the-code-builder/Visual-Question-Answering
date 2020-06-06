@@ -215,11 +215,11 @@ def main():
 
                 # Backward Pass
                 optimizer.zero_grad()
-                loss.backward()
-                '''
+#                 loss.backward()
+                
                 with amp.scale_loss(loss, optimizer) as scaled_loss:
                     scaled_loss.backward()
-'''
+
                 optimizer.step()
 
                 # Print Results - Loss value & Validation Accuracy
